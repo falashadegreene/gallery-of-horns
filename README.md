@@ -1,3 +1,13 @@
+Number and name of feature:  ___feature 1, 2 and 3_____________________________
+
+Estimate of time needed to complete: __3___
+
+Start time: _4pm_EST___
+
+Finish time: ___8pm EST__
+
+Actual time needed to complete: _____
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
