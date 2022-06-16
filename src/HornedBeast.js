@@ -7,13 +7,13 @@ class HornedBeast extends React.Component {
      constructor(props) {
        super(props);
        this.state = {
-         favorites: 0
+         favorites: 0,
        };
      };
     
      handleFavorites = () => {
        this.setState({
-         favorites: this.state.favorites + 1
+         favorites: this.state.favorites + 1,
        });
      };
      
