@@ -2,9 +2,9 @@ Number and name of feature:  ___feature 1, 2 and 3_____________________________
 
 Estimate of time needed to complete: __3___
 
-Start time: _4pm____
+Start time: _4pm_EST___
 
-Finish time: ___8pm__
+Finish time: ___8pm EST__
 
 Actual time needed to complete: _____
 
