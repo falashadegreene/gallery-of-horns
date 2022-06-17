@@ -11,6 +11,7 @@ class Main extends React.Component {
       imageUrl = {horns.image_url} 
       description={horns.description}
       key={idx}
+      horns={horns}
       handleOnShowModal={this.props.handleOnShowModal}
     />
     ));
