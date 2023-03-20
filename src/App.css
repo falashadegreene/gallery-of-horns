@@ -1,7 +1,9 @@
 body {
-  background-color:antiquewhite;
+  background-color:#F4EAE6;
 }
 
 h1 {
   font-size: 5vw;
+  text-align: center;
+  margin-bottom: 50px;
 }

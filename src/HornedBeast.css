@@ -1,10 +1,23 @@
 article {
   border: 1px solid gray;
   padding: 1vw;
-  margin-bottom: 1vw;
-  width: 16%;
+  margin-bottom: 2vw;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 20%;
+  box-shadow: 10px 4px 10px rgba(0,0,0,0.3);
   background-color: white;
+  border-radius: 10px;
+  transform: scale(1) translateZ(0);
+  transition: 
+    filter 200ms linear,
+    transform 200ms linear;
 }
+
+article:hover {
+  transform: scale(1.10) translateZ(0);
+}
+
 article img {
   width: 100%
 }
