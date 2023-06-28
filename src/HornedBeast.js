@@ -7,7 +7,7 @@ class HornedBeast extends React.Component {
      constructor(props) {
        super(props);
        this.state = {
-         favorites: 0
+         favorites: 0,
        };
      };
     
@@ -15,9 +15,11 @@ class HornedBeast extends React.Component {
        this.setState({
          favorites: this.state.favorites + 1
        });
-       this.props.handleOnShowModal(this.props.title);
+      // this.props.handleOnShowModal(this.props.title);
        
      };
+
+     
      
 
 
@@ -28,9 +30,9 @@ class HornedBeast extends React.Component {
         
           <article>
             <h2>{this.props.title}</h2>
-            <img onClick={this.handleFavorites} src={this.props.imageUrl} alt={this.props.description} title={this.props.title}/>
+            <img onClick={this.props.showModal}src={this.props.imageUrl} alt={this.props.description} title={this.props.title}/>
             <p>{this.props.description}</p>
-            <p> ❤️ {this.state.favorites} Favorites</p>
+            <button onClick={this.handleFavorites}> ❤️ {this.state.favorites} Favorites</button>
           </article>
       
           </>

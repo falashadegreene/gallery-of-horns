@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header.js';
 import Main from './Main.js';
 import Footer from './Footer';
-//import Modal from 'react-bootstrap/Modal';
+import Modal from 'react-bootstrap/Modal';
 import data from './data.json';
 import './App.css';
 import SelectedBeast from './SelectedBeast.js';
