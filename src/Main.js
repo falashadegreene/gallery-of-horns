@@ -38,18 +38,18 @@ class Main extends React.Component {
 
     return (
       <main>
-        {/* <Form onSubmit={this.handleSubmit}>
+        <Form onSubmit={this.handleSubmit}>
           <Form.Group>
             <Form.Select onChange={this.handleChange}>
               <option value="0">all</option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
-              <option value="100">100</option>
+              <option value="other">other</option>
             </Form.Select>
           </Form.Group>
-          <Button type="submit">submit</Button>
-        </Form> */}
+          {/* <Button type="submit">submit</Button> */}
+        </Form>
 
         {horns}
       </main>

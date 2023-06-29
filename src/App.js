@@ -23,37 +23,6 @@ class App extends React.Component {
     };
   };
 
-  sortData = hornSelected => {
-    //let selected = event.target.value;
-
-    if (hornSelected) {
-      let newData = data.filter(beast => beast.horns === hornSelected);
-      this.setState({
-        sortedData: newData
-      });
-      // } else if (selected === '2') {
-      //   let newData = data.filter(num => num.horns === 2);
-      //   this.setState({
-      //     sortedData: newData
-      //   });
-      // } else if (selected === '3') {
-      //   let newData = data.filter(num => num === 3);
-      //   this.setState({
-      //     sortedData: newData
-      //   });
-
-      // } else if (selected === '100') {
-      //   let newData = data.filter(num => num === 100);
-      //   this.setState({
-      //     sortedData: newData
-      //   });
-    } else {
-      this.setState({
-        sortedData: data
-      });
-    }
-  }
-
   handleChange = event => {
     this.setState({
       seletHorn: event.target.value
@@ -78,6 +47,39 @@ class App extends React.Component {
 
     });
   };
+
+  sortData = (event) => {
+    let selected = event.target.value;
+
+    if (selected) {
+      let newData = data.filter(beast => beast.horns === 1);
+      this.setState({
+        sortedData: newData
+      });
+      } else if (selected === '2') {
+        let newData = data.filter(num => num.horns === 2);
+        this.setState({
+          sortedData: newData
+        });
+      } else if (selected === '3') {
+        let newData = data.filter(num => num === 3);
+        this.setState({
+          sortedData: newData
+        });
+
+      } else if (selected === 'other') {
+        let newData = data.filter(num => num > 3 || num < 1);
+        this.setState({
+          sortedData: newData
+        });
+    } else {
+      this.setState({
+        sortedData: data
+      });
+    }
+  }
+
+
 
   render() {
     console.log(this.state.pickedHorns);
