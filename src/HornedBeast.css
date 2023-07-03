@@ -36,3 +36,8 @@ article p:last-of-type:hover {
 .article-button {
   margin: .2rem .1vw;
 }
+
+button {
+  border-radius: 15px;
+  
+}

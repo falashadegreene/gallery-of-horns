@@ -38,7 +38,7 @@ class Main extends React.Component {
 
     return (
       <main>
-        <Form onSubmit={this.handleSubmit}>
+        {/* <Form onSubmit={this.handleSubmit}>
           <Form.Group>
             <Form.Select onChange={this.handleChange}>
               <option value="0">all</option>
@@ -48,10 +48,11 @@ class Main extends React.Component {
               <option value="other">other</option>
             </Form.Select>
           </Form.Group>
-          {/* <Button type="submit">submit</Button> */}
-        </Form>
-
-        {horns}
+          <Button type="submit">submit</Button>
+        </Form> */}
+        
+         <></>
+         {horns}
       </main>
 
     );

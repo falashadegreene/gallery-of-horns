@@ -147,7 +147,8 @@
     "_id": 19,
     "image_url": "https://www.nps.gov/band/learn/nature/images/short-horned-lizard-open-mouth-18.jpg?maxwidth=650&autorotate=false",
     "title": "Horned Lizard",
-    "description": "Fave food: ants",
+    "description": "Fave food: ants"
+    ,
     "keyword": "lizard",
     "horns": 100
   },
