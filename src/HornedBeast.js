@@ -37,7 +37,7 @@ class HornedBeast extends React.Component {
             <h2>{this.props.title}</h2>
             <img onClick={this.handleFavorites} src={this.props.imageUrl} alt={this.props.description} title={this.props.title}/>
             <p>{this.props.description}</p>
-            <button onClick={this.likeMe}> ❤️ {this.state.count} Favorites</button>
+            <button onClick={this.likeMe}> ❤️ {this.state.count} Likes</button>
           </article>
       
           </>
